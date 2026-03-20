@@ -86,8 +86,8 @@ export default function Home() {
   const SELECT_CLASSES = "w-full p-4 text-xl font-medium text-gray-900 bg-white border-2 border-red-100 rounded-2xl focus:border-red-500 focus:ring-2 focus:ring-red-200 transition-all outline-none shadow-inner";
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-4 sm:p-8 bg-stone-50">
-      <div className="w-full max-w-2xl bg-white rounded-3xl shadow-2xl p-6 sm:p-12 text-center border-t-8 border-red-500">
+    <main className="flex min-h-screen flex-col items-center justify-start p-4 sm:p-8 bg-stone-50 py-20">
+      <div className="w-full max-w-2xl bg-white rounded-[2.5rem] shadow-2xl p-6 sm:p-12 text-center border-t-8 border-red-500 h-auto flex flex-col overflow-visible">
         
         <h1 className="text-5xl font-extrabold text-red-600 mb-2 tracking-widest">玄学大脑</h1>
         <p className="text-2xl text-gray-700 mb-10 font-medium">融合紫微斗数与现代心理学</p>
@@ -206,7 +206,7 @@ export default function Home() {
         )}
 
         {fortuneResult && (
-          <div className="mt-12 p-8 bg-orange-50 border-2 border-orange-200 rounded-3xl text-left shadow-inner">
+          <div className="mt-12 p-8 sm:p-10 bg-[#fffbf5] border-2 border-orange-200 rounded-[2rem] text-left shadow-inner h-auto animate-in fade-in slide-in-from-top-4 duration-700">
             <h2 className="text-3xl font-black text-orange-800 mb-6 border-b-2 border-orange-200 pb-2 flex items-center gap-2">
               📜 命理推演结果
             </h2>

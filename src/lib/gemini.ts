@@ -17,6 +17,6 @@ export const geminiModel = genAI.getGenerativeModel({
   model: 'gemini-3-flash-preview',
   generationConfig: {
     temperature: 0.8, // 0.8 adds a touch of creative "mysticism" to the responses
-    maxOutputTokens: 1000, // Limits the length of the fortune to about 500-800 words
+    maxOutputTokens: 4000, // Limits the length of the fortune to about 500-800 words
   },
 });
